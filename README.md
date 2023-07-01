@@ -13,4 +13,4 @@ Movidle is a movie guessing game where players have five chances to guess a movi
 5. If the correct movie name is guessed within the allotted five chances, the player wins the game. Otherwise, they lose.
 
 ## Class Diagram
-![UML Diagram]("C:\Users\batuh\Desktop\UML.png")
+![UML](https://github.com/BatuhanErTo/Movidle/assets/46936547/64e74bfc-7c65-4cb8-9c4a-b27a98a105d4)
