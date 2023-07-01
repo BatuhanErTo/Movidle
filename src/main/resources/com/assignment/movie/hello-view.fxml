@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.movie.controller.MovieController">
+   <top>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtField" layoutX="56.0" layoutY="30.0" prefHeight="25.0" prefWidth="195.0" />
+            <Button fx:id="btnGuess" layoutX="274.0" layoutY="30.0" mnemonicParsing="false" onMouseClicked="#btnGuessClicked" prefHeight="25.0" prefWidth="52.0" text="Guess" />
+            <ImageView fx:id="imageOfMovie" fitHeight="147.0" fitWidth="252.0" layoutX="337.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            <ListView fx:id="suggestionsListView" layoutX="59.0" layoutY="65.0" prefHeight="122.0" prefWidth="218.0" />
+            <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="363.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <Pane fx:id="paneBottom" prefHeight="270.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
